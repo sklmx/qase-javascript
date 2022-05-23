@@ -81,7 +81,7 @@ export interface ResultCreate {
      * @type {{ [key: string]: string; }}
      * @memberof ResultCreate
      */
-    'param'?: { [key: string]: string; };
+    'param'?: { [key: string]: string; } | null;
     /**
      * 
      * @type {Array<ResultCreateSteps>}
